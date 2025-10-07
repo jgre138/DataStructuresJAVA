@@ -1,0 +1,4 @@
+false
+true
+Shape List: 
+ShapeNode [info=Triangle [base=176, height=205], area=18040.0], ShapeNode [info=Triangle [base=1, height=2], area=1.0], ShapeNode [info=Triangle [base=176, height=205], area=18040.0], ShapeNode [info=Triangle [base=16, height=24], area=192.0], ShapeNode [info=Triangle [base=3, height=8], area=12.0], 
