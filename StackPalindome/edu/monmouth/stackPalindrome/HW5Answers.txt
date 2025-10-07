@@ -1,0 +1,32 @@
+Jennifer Greene
+
+1. What data structure recently studied is Java’s Properties class based on? Clearly describe why this is.
+	The data structure the Properties class is based off of is a HashTable. Both the Properties class and 
+	HashTable store key-value pairs, and hhh
+	
+2. What is stack’s order of insertion and removal?
+	Stacks work using a Last-in, First-out (LIFO) order. Just like a stack of books, you remove the books 
+	on top to get the the first one placed down.
+
+3. What are a stack’s primary operations? For each of these operations, clearly describe its time complexities (Big O).
+	The primary operations of a stack are push(), pop(), and peek()/top(), and isEmpty(). All of these are O(1) as they 
+	all operate on only the top element. push() adds an element to the top of the stack. pop() removes the element from 
+	the top of the stack. peek()/top() returns the top element from the stack without removing the element. isEmpty() 
+	returns if there is any elements that are in the stack, which can be checked by if there is something at the top of 
+	the stack or not.
+
+4. What operation removes an element from the stack?
+	The stack's pop() function to remove an element from the top of the stack. It returns the element while removing it.
+
+5. From what part of the stack do all operations occur?
+	All operations in a stack occur from the top of the stack.
+
+6. Is a stack a linear data structure?
+	Yes, stack is a linear data structure. Each element is connected to each other in a linear sequence. 
+
+7. Clearly describe the Big-O of each of your palindrome determining algorithms.
+	The Big-O of my palindrome algorithm is O(n). Before entering the method, the number of strings or integers 
+	passed through the loops to be used in the method are constant unless the .properties file is changed. Once in the method,
+	each string and integer is sent through two separate loops to separated the characters and append it to a StringBuilder,
+	which occurs a consistent number of times. All operations are O(n), and there are no conditons that would make anything 
+	leave the loops in the middle of the operation, and will run n number of times.
